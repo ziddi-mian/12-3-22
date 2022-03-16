@@ -3,22 +3,19 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+    <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+    <label class="form-check-label" for="flexCheckDefault">
+      Default checkbox
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+    <label class="form-check-label" for="flexCheckChecked">
+      Checked checkbox
+    </label>
+  </div>
   );
 }
 
